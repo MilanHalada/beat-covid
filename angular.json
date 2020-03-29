@@ -126,8 +126,13 @@
               "devServerTarget": "beat-corona:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "beat-corona"
 }
